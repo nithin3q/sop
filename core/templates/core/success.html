@@ -1,0 +1,41 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block main %}
+
+
+
+<main id="main" class="main">
+
+   
+
+    <section class="section">
+      <div class="row">
+        
+
+        <div class="col-lg-8">
+
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+
+             
+
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <h4 class="alert-heading">Success</h4>
+                <p>Your response has been recorded</p>
+                <hr>
+                <p class="mb-0">You will receive an email at the email address that you have provided containing all the information you provided</p>
+                <a type="button" href="{% url 'home' %}" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+{% endblock main %}
