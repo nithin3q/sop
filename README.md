@@ -1,9 +1,13 @@
 # SOP Generation Tool
 
+### Prerequisites
+
+- Python (3.8+)
+- Django
 
 ## Setup
 
-1. Clone the repository.
+1. Clone the repository.git clone https://github.com/nithin3q/sop
 2. Create a virtual environment and activate it.
 3. Install project dependencies: `pip install -r requirements.txt`.
 4. Run database migrations: `python manage.py migrate`.
