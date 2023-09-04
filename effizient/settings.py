@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['web-production-0c22.up.railway.app', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-0c22.up.railway.app/',]
+CSRF_TRUSTED_ORIGINS = ['https://web-production-0c22.up.railway.app',]
 
 
 # Application definition
@@ -133,12 +133,12 @@ STATICFILES_DIRS = [
 
 #DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #For Production
- EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
- EMAIL_HOST = 'smtp.gmail.com'
- EMAIL_USE_TLS = True
- EMAIL_POST = 587
- EMAIL_HOST_USER = 'kiransai3569@gmail.com'
- EMAIL_HOST_PASSWORD = 'zwrzksaceurcyoey'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_POST = 587
+EMAIL_HOST_USER = 'kiransai3569@gmail.com'
+EMAIL_HOST_PASSWORD = 'zwrzksaceurcyoey'
