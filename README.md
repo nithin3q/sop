@@ -13,6 +13,9 @@
 4. Run database migrations: `python manage.py migrate`.
 5. Start the development server: `python manage.py runserver`.
 
+## About
+
+The Customized SOP Generator is a powerful tool designed to simplify the process of creating personalized Statement of Purpose documents for students applying to study in Canada. With this user-friendly questionnaire, students can provide their essential details, educational background, work experience, future goals, and English proficiency scores. Once the information is submitted, the tool generates a customized SOP tailored to the individual's profile. 
 
 ## Dependencies
 
